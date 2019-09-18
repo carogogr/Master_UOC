@@ -1,0 +1,34 @@
+---
+title: "LAB1_Ej1_RMarkdown. Ejemplo de R Markdown"
+author: "Carolina Gómez García"
+date: "18/9/2019"
+output:
+  html_document: default
+  'html_document: default': default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Añadir código R
+
+Se utilizará la función PRINT
+
+```{r}
+nomiris<- c("Setosa","Versicolor","Virginica")
+print(nomiris)
+```
+
+## Añadir gráfico
+
+```{r iris}
+plot(iris$Species,xlab="Especies",col="cyan")
+```
+
+## Añadir imagen
+
+El logo de Markdown en la siguiente imagen: 
+
+
+![](C:\Users\CaroGG\Documents\Logo Markdown.png)
